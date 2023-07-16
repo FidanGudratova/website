@@ -8,7 +8,7 @@ export default class Main extends Component {
                 <header>
                     <div className="logo"> logo var ama yoxdu sad..</div>
                     <div className="menu">
-                    <div className="navbar">
+                        <div className="navbar">
                             <span className="navbar-span">Home </span>
                             <span className="navbar-span">About </span>
                             <span className="navbar-span">Contacts </span>
