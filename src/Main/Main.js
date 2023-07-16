@@ -19,9 +19,9 @@ export default class Main extends Component {
                             <button className="search-button">SEARCH</button>
                         </div> 
                     </div>
-
-        
                 </header>
+
+            
                 <section>
                     <div className="categories-div">
                         <div className="category"> 
@@ -40,9 +40,10 @@ export default class Main extends Component {
                             <div className="category-img"> </div>
                             <span className="category-span">TECHNOLOGY</span> 
                         </div>
-
                     </div>
+            
                     <h2>PRODUCTS</h2>
+            
                     <div className="components-div">
                     <div className="component">
                             <div className="component-img"> img</div>
@@ -64,9 +65,8 @@ export default class Main extends Component {
                             <span className="component-span">Divan</span> 
                             <span className="price-span">Price </span>
                         </div>
-
-                        
                     </div>
+            
                     <div className="pros">
                         <span className="pros-span"> OUR SUPERIORITIES </span>
                         <span className="pros-span-happy"> HAPPY SHOPPING </span>
@@ -86,11 +86,11 @@ export default class Main extends Component {
                                 <span className="pros-item-header"> 7/24 support line </span>
                                 <span className="pros-item-body"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy. </span>
                             </div>
-
                         </div>
-
                     </div>
                 </section>
+
+            
                 <footer>
                     <div className="details">
                         <div className='subscribe'>
