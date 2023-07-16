@@ -6,44 +6,65 @@ export default class Main extends Component {
         return (
             <div className="main">
                 <header>
-                    <div className="logo"> logo var ama yoxdu sad..
-                        {/* <div className="logo-span"><img src={logo} alt=""> </img></div> */}
-                    </div>
+                    <div className="logo"> logo var ama yoxdu sad..</div>
+                    <div className="menu">
                     <div className="navbar">
-                        <span className="navbar-span">Home </span>
-                        <span className="navbar-span">About </span>
-                        <span className="navbar-span">Contacts </span>
-                        <span className="navbar-span">Log In </span>
-                        <span><input className="input-search" type='text' placeholder='Search is here'></input></span>
-                        <span><button>SEARCH</button></span>
+                            <span className="navbar-span">Home </span>
+                            <span className="navbar-span">About </span>
+                            <span className="navbar-span">Contacts </span>
+                            <span className="navbar-span">Log In </span>
+                        </div> 
+                        <div className="searchbar">
+                            <input className="input-search" type='text' placeholder='Search is here'></input>
+                            <button className="search-button">SEARCH</button>
+                        </div> 
                     </div>
+
+        
                 </header>
                 <section>
                     <div className="categories-div">
                         <div className="category"> 
                             <div className="category-img"> </div>
-                            <span className="category-span">Electronics</span> 
+                            <span className="category-span">HOME & GARDEN </span> 
+                        </div>
+                        <div className="category"> 
+                            <div className="category-img"> </div>
+                            <span className="category-span">TECHNOLOGY</span> 
+                        </div>
+                        <div className="category"> 
+                            <div className="category-img"> </div>
+                            <span className="category-span">HOME & GARDEN </span> 
+                        </div>
+                        <div className="category"> 
+                            <div className="category-img"> </div>
+                            <span className="category-span">TECHNOLOGY</span> 
                         </div>
 
                     </div>
-
+                    <h2>PRODUCTS</h2>
                     <div className="components-div">
-                        <div className="component">
-                            {/* <img src="../imgs/img1.png" alt="" ></img> */}
-                            <span className="component-span">componentname</span> 
+                    <div className="component">
+                            <div className="component-img"> img</div>
+                            <span className="component-span">Divan</span> 
+                            <span className="price-span">Price </span>
                         </div>
                         <div className="component">
-                            {/* <img src="../imgs/img1.png" alt="" ></img> */}
-                            <span className="component-span">componentname</span> 
+                            <div className="component-img"> img</div>
+                            <span className="component-span">Divan</span> 
+                            <span className="price-span">Price </span>
                         </div>
                         <div className="component">
-                            {/* <img src="../imgs/img1.png" alt="" ></img> */}
-                            <span className="component-span">componentname</span> 
+                            <div className="component-img"> img</div>
+                            <span className="component-span">Divan</span> 
+                            <span className="price-span">Price </span>
                         </div>
-                        <div className="component">
-                            {/* <img src="../imgs/img1.png" alt="" ></img> */}
-                            <span className="component-span">componentname</span> 
+                                                <div className="component">
+                            <div className="component-img"> img</div>
+                            <span className="component-span">Divan</span> 
+                            <span className="price-span">Price </span>
                         </div>
+
                         
                     </div>
                     <div className="pros">
