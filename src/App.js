@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Main from './Main/Main';
+
 import './App.css';
 
 export default class App extends Component {
@@ -7,6 +8,7 @@ export default class App extends Component {
        return (
           <div>
               < Main />
+
           </div>
       )
   }

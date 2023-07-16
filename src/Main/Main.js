@@ -6,8 +6,8 @@ export default class Main extends Component {
         return (
             <div className="main">
                 <header>
-                    <div className="logo">
-                        <span className="logo-span">marka adi logo</span>
+                    <div className="logo"> logo var ama yoxdu sad..
+                        {/* <div className="logo-span"><img src={logo} alt=""> </img></div> */}
                     </div>
                     <div className="navbar">
                         <span className="navbar-span">Home </span>
@@ -15,7 +15,7 @@ export default class Main extends Component {
                         <span className="navbar-span">Contacts </span>
                         <span className="navbar-span">Log In </span>
                         <span><input className="input-search" type='text' placeholder='Search is here'></input></span>
-                        <span><button>Search</button></span>
+                        <span><button>SEARCH</button></span>
                     </div>
                 </header>
                 <section>
