@@ -1,0 +1,33 @@
+.components-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 70px;
+    gap: 50px;
+    padding: 0px 150px;
+}
+.component {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 200px;
+    border-radius: 20px 20px 5px 5px;
+    background-color: rgb(230, 235, 247);
+}
+.component-img {
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+}
+.component-span {
+    width: 200px;
+    height: 30px;
+    padding: 3px 0px 0px 20px;
+    font-size: 16px;
+}
+.price-span {
+    width: 200px;
+    height: 20px;
+    padding: 0px 0px 0px 20px;
+    font-size: 14px;
+}

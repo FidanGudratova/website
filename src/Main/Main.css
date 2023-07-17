@@ -87,8 +87,8 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 40px;
-    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-top: 70px;
     padding: 0px 400px;
 
 }
@@ -116,37 +116,7 @@ section {
 
 
 
-.components-div {
-    display: flex;
-    margin-bottom: 70px;
-    gap: 50px;
-}
-.component {
-    display: flex;
-    flex-direction: column;
-    width: 250px;
-    height: q200px;
-    border-radius: 5px;
-    background-color: bisque;
-}
-.component-img {
-    background-color: aqua;
-    width: 250px;
-    height: 150px;
-    border-radius: 20px;
-}
-.component-span {
-    width: 200px;
-    height: 30px;
-    padding: 3px 0px 0px 15px;
-    font-size: 16px;
-}
-.price-span {
-    width: 200px;
-    height: 20px;
-    padding: 0px 0px 0px 15px;
-    font-size: 14px;
-}
+
 
 
 
@@ -173,7 +143,6 @@ section {
     font-weight: 700;
 }
 .pros-div {
-    
     display: flex;
     justify-content: space-around;
     width: 90%;
@@ -208,77 +177,4 @@ section {
 }
 
 
-footer {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    padding: 40px 40px 0px 40px;
-    margin-top: 50px;
-    background-color: #1D2130;
-}
-.subscribe {
-    margin-top: -20px;
-}
-.subs-header {
-    margin-left: 10px;
-    color: #c7c4c4;
-}
-.mail-input {
-    border-radius: 8px;
-    width: 200px;
-    height: 40px;
-    border: 2px solid #0d0d0e;
-}
-/* button {
-    margin: 0;
-    border-radius: 8px;
-    width: auto;
-    height: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    color: white;
-    background-color: #0c0c0c;
-}
-button:hover {
-    cursor: pointer;
-    background-color: rgb(76, 81, 82);
-    color: rgb(252, 252, 252);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    font-weight: bold;
-} */
-.details {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
-}
-.footer-div {
-    display: flex;
-    flex-direction: column;
-}
-.footer-span-head {
-    color: #c7c4c4;
-    font-family: Averta;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    margin-bottom: 5px;
-}
-.footer-span {
-    color: #aaa3a3;
-    font-family: Averta;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-}
-.year {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-    color: #f8f3f3;
-    font-family: Averta;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400
-}
+
