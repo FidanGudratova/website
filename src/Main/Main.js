@@ -1,72 +1,69 @@
 import React, { Component } from 'react';
 import "./Main.css";
+import logoImg from "../Assets/Imgs/logo.jpeg";
+import catImg1 from "../Assets/Imgs/home.jpeg";
+import catImg2 from "../Assets/Imgs/techno.jpeg";
+import catImg3 from "../Assets/Imgs/smartpho.jpeg";
+import catImg4 from "../Assets/Imgs/acs.jpeg";
 
 export default class Main extends Component {
     render() {
         return (
             <div className="main">
-                <header>
-                    <div className="logo"> logo var ama yoxdu sad..</div>
-                    <div className="menu">
-                        <div className="navbar">
-                            <span className="navbar-span">Home </span>
-                            <span className="navbar-span">About </span>
-                            <span className="navbar-span">Contacts </span>
-                            <span className="navbar-span">Log In </span>
-                        </div> 
-                        <div className="searchbar">
-                            <input className="input-search" type='text' placeholder='Search is here'></input>
-                            <button className="search-button">SEARCH</button>
-                        </div> 
+                <header>             
+                    <img src={logoImg} className='logo' alt='logo'/>
+                    <div className="navbar">
+                        <span className="navbar-span">Home </span>
+                        <span className="navbar-span">About </span>
+                        <span className="navbar-span">Contacts </span>
+                        <span className="navbar-span">Log In </span>
                     </div>
                 </header>
 
-            
                 <section>
+                    <div className="searchbar">
+                        <input className="input-search" type='text' placeholder='Search is here'></input>
+                        <button className="search-button">SEARCH</button>
+                    </div>
                     <div className="categories-div">
-                        <div className="category"> 
-                            <div className="category-img"> </div>
-                            <span className="category-span">HOME & GARDEN </span> 
+                        <div className="category">
+                            <img className="category-img" src={catImg1} alt="home" />
                         </div>
-                        <div className="category"> 
-                            <div className="category-img"> </div>
-                            <span className="category-span">TECHNOLOGY</span> 
+                        <div className="category">
+                            <img className="category-img" src={catImg2} alt="tech" />   
                         </div>
-                        <div className="category"> 
-                            <div className="category-img"> </div>
-                            <span className="category-span">HOME & GARDEN </span> 
+                        <div className="category">
+                            <img className="category-img" src={catImg3} alt="smartphone" />
                         </div>
-                        <div className="category"> 
-                            <div className="category-img"> </div>
-                            <span className="category-span">TECHNOLOGY</span> 
+                        <div className="category">
+                            <img className="category-img" src={catImg4} alt="acs" />   
                         </div>
+
                     </div>
-            
-                    <h2>PRODUCTS</h2>
-            
+
                     <div className="components-div">
-                    <div className="component">
+                        <div className="component">
                             <div className="component-img"> img</div>
-                            <span className="component-span">Divan</span> 
+                            <span className="component-span">Divan</span>
                             <span className="price-span">Price </span>
                         </div>
                         <div className="component">
                             <div className="component-img"> img</div>
-                            <span className="component-span">Divan</span> 
+                            <span className="component-span">Divan</span>
                             <span className="price-span">Price </span>
                         </div>
                         <div className="component">
                             <div className="component-img"> img</div>
-                            <span className="component-span">Divan</span> 
+                            <span className="component-span">Divan</span>
                             <span className="price-span">Price </span>
                         </div>
-                                                <div className="component">
+                        <div className="component">
                             <div className="component-img"> img</div>
-                            <span className="component-span">Divan</span> 
+                            <span className="component-span">Divan</span>
                             <span className="price-span">Price </span>
                         </div>
                     </div>
-            
+
                     <div className="pros">
                         <span className="pros-span"> OUR SUPERIORITIES </span>
                         <span className="pros-span-happy"> HAPPY SHOPPING </span>
@@ -90,7 +87,7 @@ export default class Main extends Component {
                     </div>
                 </section>
 
-            
+
                 <footer>
                     <div className="details">
                         <div className='subscribe'>
