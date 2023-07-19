@@ -5,10 +5,10 @@ export default class Footer extends Component {
         return (
             <footer>
                     <div className="details">
-                        <div className='subscribe'>
+                        <div className='.footer-div'>
                             <p className="subs-header">Subscribe to us..</p>
                             <span><input className="mail-input" type="email" placeholder='Email' required ></input></span>
-                            <span><button>SUBMIT</button></span>
+                            <span><button className="submit-btn">SUBMIT</button></span>
                         </div>
                         <div className="footer-div">
                             <span className="footer-span-head">Company </span>
