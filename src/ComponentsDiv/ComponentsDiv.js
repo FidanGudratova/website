@@ -8,6 +8,7 @@ import compImg5 from "../Assets/Imgs/5.png";
 import compImg6 from "../Assets/Imgs/6.png";
 import compImg7 from "../Assets/Imgs/7.png";
 import compImg8 from "../Assets/Imgs/8.png";
+import { Link } from 'react-router-dom';
 
 export default class ComponentsDiv extends Component {
     state = {
@@ -94,11 +95,13 @@ export default class ComponentsDiv extends Component {
                 {
                     components.map((item) => {
                         return (
-                            <div className="component">
-                                <img src={item.img} alt="home" className="component-img" />
-                                <span className="price-span">{item.componentPrice} </span>
-                                <span className="component-span"> <b> {item.componentName} </b>, {item.date}</span>
-                            </div>
+                            <Link to={'/product'} style={{ textDecoration: 'none' }}>
+                                <div className="component">
+                                    <img src={item.img} alt="home" className="component-img" />
+                                    <span className="price-span">{item.componentPrice} </span>
+                                    <span className="component-span"> <b> {item.componentName} </b>, {item.date}</span>
+                                </div>
+                            </Link>
                         )
                     })
                 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "./Main.css";
+import "./Product.css";
 
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
@@ -7,7 +7,7 @@ import ComponentsDiv from "../ComponentsDiv/ComponentsDiv";
 import Pros from "../Pros/Pros";
 
 
-export default class Main extends Component {
+export default class Product extends Component {
     render() {
         return (
             <div className="main">
