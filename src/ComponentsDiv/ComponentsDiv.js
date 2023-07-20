@@ -8,11 +8,19 @@ import compImg5 from "../Assets/Imgs/5.png";
 import compImg6 from "../Assets/Imgs/6.png";
 import compImg7 from "../Assets/Imgs/7.png";
 import compImg8 from "../Assets/Imgs/8.png";
+import compImg12 from "../Assets/Imgs/comImg12.jpg";
 import { Link } from 'react-router-dom';
+
 
 export default class ComponentsDiv extends Component {
     state = {
         components: [
+            {
+                img: compImg12,
+                componentName: "Smartphone",
+                date: "30.03.2023",
+                componentPrice: "450$"
+            },
             {
                 img: compImg4,
                 componentName: "Airphone",

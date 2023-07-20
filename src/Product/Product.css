@@ -1,0 +1,50 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    width: 100%; 
+    padding: 0% 5%;
+}
+.product-header-div {
+    display: flex;
+    align-content: flex-start;
+    gap: 10%;
+    padding-top: 3%;
+}
+.product-contact  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.product-contact-img {
+    width: 50px;
+    
+}
+.product-contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.product-body-div {
+    display: flex;
+    justify-content: space-between;    
+    padding-top: 3%;
+    gap: 40px;
+}
+
+.product-img {
+    width: 60%;
+    height: 470px;
+    background-color: black;
+    border-radius: 30px;
+}
+.product-info-card {
+    width: 35%;
+    height: 470px;
+    border-radius: 25px;
+    background-color: #bfc6fa;
+}
+
+
