@@ -1,30 +1,29 @@
 import React, { Component } from 'react';
 import "./Categories.css";
-import catImg1 from "../Assets/Imgs/home.jpeg";
-import catImg2 from "../Assets/Imgs/techno.jpeg";
-import catImg3 from "../Assets/Imgs/smartpho.jpeg";
-import catImg4 from "../Assets/Imgs/acs.jpeg";
+import catImg1 from "../Assets/Imgs/gaden.png";
+import catImg2 from "../Assets/Imgs/phone.png";
+import catImg3 from "../Assets/Imgs/add.png";
+import catImg4 from "../Assets/Imgs/carr.png";
 
 export default class Categories extends Component {
     state = {
         categories: [
             {
                 img: catImg1,
-                categoryName: "home & garden"
+                categoryName: "Home & Garden"
             },
             {
                 img: catImg2,
-                categoryName: "home & garden"
-            },
-            {
-                img: catImg3,
-                categoryName: "home & garden"
+                categoryName: "Electronics"
             },
             {
                 img: catImg4,
-                categoryName: "home & garden"
+                categoryName: "Cars"
             },
-      
+            {
+                img: catImg3,
+                categoryName: "Others"
+            }
         ]
     }
     render() {
@@ -37,7 +36,7 @@ export default class Categories extends Component {
                         return (
                             <div className="category">
                                 <img src={item.img} alt="home" className="category-img" />
-                                {/* <span className="category-span">{item.categoryName}</span> */}
+                                <span className="category-span">{item.categoryName}</span>
                             </div>
                         )
                     })

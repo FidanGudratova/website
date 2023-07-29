@@ -1,17 +1,26 @@
 .product {
     display: flex;
     flex-direction: column;
-    background-color: blanchedalmond;
     width: 100%; 
     padding: 0% 5%;
+    margin-top: 3%;
 }
 .product-header-div {
     display: flex;
     align-content: flex-start;
-    gap: 10%;
+    gap: 50px;
     padding-top: 3%;
+    padding-left: 1%;
 }
 .product-contact  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-right: 1px solid rgb(119, 117, 117);
+    padding-right: 60px;
+}
+.product-contacts  {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +28,6 @@
 }
 .product-contact-img {
     width: 50px;
-    
 }
 .product-contact-info {
     display: flex;
@@ -36,15 +44,45 @@
 
 .product-img {
     width: 60%;
-    height: 470px;
-    background-color: black;
-    border-radius: 30px;
+    border-radius: 7%;
 }
 .product-info-card {
-    width: 35%;
-    height: 470px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
     border-radius: 25px;
     background-color: #bfc6fa;
+    padding: 2%;
+}
+ .product-price {
+    display: flex;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 3%;
+    
+}
+.product-details {
+    margin-top: 3%;
+    height: 90%; 
+    margin-bottom: 20%;
+}
+.product-details-part {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    padding: 5% 3%;
+    padding-bottom: 5%;
+    border-bottom: 1px solid grey;
+    border-radius: 8px;
+
+}
+.query {
+    color: rgba( 0, 0, 0, 0.6);
+}
+
+.ads-number {
+    text-align: center;
+    
 }
 
 

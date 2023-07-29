@@ -1,19 +1,19 @@
 .pros {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .pros-span {
     margin-bottom: 30px;
-    font-family: Averta;
-    color: rgb(69, 51, 228);
+    color: rgba(223, 16, 119, 0.8);
     font-size: 16px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
 }
 .pros-span-happy {
     margin-bottom: 40px;
-    color: #464747;
+    color: rgba(20, 6, 148, 0.6);
     text-align: center;
     font-family: Averta;
     font-size: 40px;

@@ -29,6 +29,8 @@ export default class Main extends Component {
 
                     <Categories />
 
+                    <h2> ~ COLLECTIONS ~</h2>
+
                     <ComponentsDiv />
 
                     <Pros />

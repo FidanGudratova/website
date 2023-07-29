@@ -1,46 +1,43 @@
 .components-div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 20px;
     margin-bottom: 70px;
-    gap: 60px;
-    padding: 0% 10%;
+    gap: 100px;
+}
+.complink {
+    width: 300px;
 }
 .component {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 196px;
-    height: 200px;
     gap: 6px;
     border-radius: 20px 20px 5px 5px;
-    background-color: #f3f3f7;
-}
-.component:hover {
-    cursor: pointer;
-    width: 198px;
+    background-color: #f5f5f7;
 }
 .component-img {
-    width: 200px;
-    height: 150px;
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
 }
 .component-img:hover {
-    width: 204px;
+    width: 104%;
+}
+.component-spans {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 2%;
 }
 .component-span {
-    width: 150px;
-    height: 30px;
     font-size: 14px;
     color: #1d2130;
-    font-family: Averta;
 }
 .price-span {
-    font-family: Averta;
-    width: 150px;
-    height: 20px;
     font-size: 17px;
     font-style: normal;
     font-weight: bold;

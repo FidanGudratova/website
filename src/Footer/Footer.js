@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 import "./Footer.css";
+import fb from "../Assets/Icons/Facebook.svg";
+import insta from "../Assets/Icons/Instagram.svg";
+import tw from "../Assets/Icons/Twitter.svg";
+import le from "../Assets/Icons/LinkedIn.svg";
+
 export default class Footer extends Component {
     render() {
         return (
@@ -11,6 +16,13 @@ export default class Footer extends Component {
                                 <input className="mail-input" type="email" placeholder='Email' required ></input>
                                 <button className="submit-btn">SUBMIT</button>
                             </div>
+                            <div className="icons">
+                                <img classname="icon" src={fb} alt="fb"/>
+                                <img classname="icon" src={insta} alt="insta"/>
+                                <img classname="icon" src={tw} alt="tw"/>
+                                <img classname="icon" src={le} alt="le"/>
+                            </div>
+
                         </div>
                         <div className="footer-divs">
                             <div className="footer-div">

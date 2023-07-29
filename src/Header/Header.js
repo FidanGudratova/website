@@ -8,6 +8,7 @@ export default class Header extends Component {
                 <span className="navbar-span">About </span>
                 <span className="navbar-span">Contacts </span>
                 <span className="navbar-span">Log In </span>
+                <button className="search-button"> ➕NEW AD</button>
             </header>
         )
     }

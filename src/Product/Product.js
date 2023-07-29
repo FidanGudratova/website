@@ -6,7 +6,9 @@ import Footer from '../Footer/Footer';
 import ComponentsDiv from "../ComponentsDiv/ComponentsDiv";
 import Pros from "../Pros/Pros";
 import contactImg from "../Assets/Imgs/contact-img.svg";
-import compImg12 from "../Assets/Imgs/comImg12.jpg";
+import compImg12 from "../Assets/Imgs/product.jpg";
+import contact from "../Assets/Icons/phone-call 1.svg";
+
 
 
 
@@ -33,8 +35,8 @@ export default class Product extends Component {
                                     <span>Today, 16:19</span>
                                 </div>
                             </div>
-                            <div className="product-contact"> 
-                                <img className="product-contact-icon" src="" alt="" />
+                            <div className="product-contacts"> 
+                                <img className="product-contact-icon" src={contact} alt="" />
                                 <div className="product-contact-info">
                                     <span>Phone</span>
                                     <span>070 258 94 94</span>
@@ -44,12 +46,32 @@ export default class Product extends Component {
                         <div className="product-body-div">
                             <img className="product-img" src={compImg12} alt="" />
                             <div className="product-info-card">
-                                <p> 450$ </p>
-                                <div className="card-info">
-                                    <div className="card-info-query"></div>
-                                    <div className="card-info-ans"></div>
-                                </div>
+                                <span className="product-price"> 450$ </span>
+                                <div className="product-details">
+                                    <div className="product-details-part">
+                                        <span className="query">City</span>
+                                        <span className="ans">Baku</span>
+                                    </div>
+                                    <div className="product-details-part">
+                                        <span className="query">Brend</span>
+                                        <span className="ans">Samsung</span>
+                                    </div>
+                                    <div className="product-details-part">
+                                        <span className="query">Color</span>
+                                        <span className="ans">Awesome Blue</span>
+                                    </div>
+                                    <div className="product-details-part">
+                                        <span className="query">Memory</span>
+                                        <span className="ans">128GB/4GB</span>
+                                    </div>
+                                    <div className="product-details-part">
+                                        <span className="query">Delivery</span>
+                                        <span className="ans">Free Shipping</span>
+                                    </div>
 
+
+                                </div>
+                                <span className="ads-number"> Number: 2548941 </span>
                             </div>
 
                         </div>
