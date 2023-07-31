@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%; 
     padding: 0% 5%;
-    margin-top: 3%;
+    margin-top: 5%;
 }
 .product-header-div {
     display: flex;
@@ -124,14 +124,17 @@ span {
 
 @media screen and (max-width: 1500px) {
     .product-body-div {
+        width: 100%;
         justify-content: center;
-        gap:  40px;
+        gap: 40px;
     }
     .product-img {
+        width: 70% ;
         min-width: 550px;
     }
     .product-info-card {
-        min-width: 400px;
+        width: 20%;
+        min-width: 320px;
     }
     .product-name-tel {
         font-size: 40px;

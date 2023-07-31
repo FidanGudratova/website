@@ -28,19 +28,19 @@
     font-weight: bold;
     color: rgba(0, 0, 0, 0.6);
 } 
-@media screen and (min-width: 555px) {
-    span {
-        font-size: 36px !important;
+@media screen and (max-width: 555px) {
+    .category-span {
+        font-size: 16px !important;
     }
     .category {
-        width: 30%;
+        width: 20%;
     }
 }
-@media screen and (min-width: 1500px) {
-    span {
-        font-size: 50px !important;
+@media screen and (max-width: 1500px) {
+    .category-span {
+        font-size: 24px !important;
     }
     .category {
-        width: 35%;
+        width: 25%;
     }
 }
