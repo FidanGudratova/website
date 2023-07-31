@@ -59,7 +59,7 @@ footer {
 }
 .footer-divs {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
     padding-top: 1%;
     padding-bottom: 2%;
     gap: 50px;
@@ -72,7 +72,7 @@ footer {
 .footer-span-head {
     color: #c7c4c4;
     font-family: Averta;
-    font-size: 18px;
+    font-size: 36px !important;
     font-style: normal;
     font-weight: 600;
     margin-bottom: 4%;
@@ -80,7 +80,7 @@ footer {
 .footer-span {
     color: #aaa3a3;
     font-family: Averta;
-    font-size: 16px;
+    font-size: 32px !important;
     font-style: normal;
     font-weight: 400;
 }
@@ -93,4 +93,24 @@ footer {
     font-size: 14px;
     font-style: normal;
     font-weight: 400
+}
+
+@media screen and (max-width: 555px) { 
+    .footer-divs {
+        flex-wrap: wrap;
+    }
+    .footer-div {
+        min-width: 300px;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 1500px) { 
+    .footer-span-head {
+        font-size: 30px !important;
+    }
+    .footer-span {
+        font-size: 26px !important;
+    }
 }

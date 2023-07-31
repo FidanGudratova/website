@@ -26,7 +26,7 @@ export default class Product extends Component {
                     </div>
                     <div className='product'>
 
-                        <h3> Samsung Galaxy A52 Awesome Blue 128GB/4GB</h3>
+                        <p className="product-name-tel"> Samsung Galaxy A52 Awesome Blue 128GB</p>
                         <div className="product-header-div"> 
                             <div className="product-contact"> 
                                 <img className="product-contact-img" src={contactImg} alt="contact" />
@@ -62,7 +62,7 @@ export default class Product extends Component {
                                     </div>
                                     <div className="product-details-part">
                                         <span className="query">Memory</span>
-                                        <span className="ans">128GB/4GB</span>
+                                        <span className="ans">128GB</span>
                                     </div>
                                     <div className="product-details-part">
                                         <span className="query">Delivery</span>

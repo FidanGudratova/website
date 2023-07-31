@@ -10,7 +10,7 @@ export default class Categories extends Component {
         categories: [
             {
                 img: catImg1,
-                categoryName: "Home & Garden"
+                categoryName: "Home"
             },
             {
                 img: catImg2,

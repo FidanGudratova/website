@@ -5,9 +5,9 @@
     align-items: center;
 }
 .pros-span {
+    font-size: 30px !important;
     margin-bottom: 30px;
     color: rgba(223, 16, 119, 0.8);
-    font-size: 16px;
     font-style: normal;
     font-weight: bold;
 }
@@ -16,13 +16,11 @@
     color: rgba(20, 6, 148, 0.6);
     text-align: center;
     font-family: Averta;
-    font-size: 40px;
     font-style: normal;
     font-weight: 700;
 }
 .pros-div {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     width: 90%;
     padding: 5%;
@@ -43,11 +41,43 @@
 .pros-item-header {
     color: #0d0d0e;
     font-family: Averta;
-    font-size: 24px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
 }
 .pros-item-body {
     color: #1D2130;
     font-family: Averta;
+    font-size: 36px;
 }
+ @media screen and (max-width: 555px) {
+    .pros-span {
+        font-size: 20px !important;
+    }
+    .pros-span-happy {
+        font-size: 32px !important;
+    }
+    .pros-div {
+        flex-wrap: wrap;
+        min-width: 350px;
+        gap: 20px;
+    }
+    .pros-item {
+        min-width: 300px;
+    }
+ }
+
+ @media screen and (max-width: 1500px) {
+    .pros-div {
+        gap: 20px;
+    }
+    .pros-item {
+        width: 30%;
+    }
+    .pros-item-header {
+        font-size: 36px !important;
+    }
+    .pros-item-body {
+        font-size: 30px !important;
+    }
+ }

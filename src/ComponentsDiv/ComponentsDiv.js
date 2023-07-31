@@ -106,7 +106,6 @@ export default class ComponentsDiv extends Component {
                                         <span className="component-span"> <b> {item.componentName} </b></span>
                                         <span className="component-span">{item.date}</span>
                                     </div>
-
                                 </div>
                             </Link>
                         )

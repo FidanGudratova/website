@@ -20,7 +20,7 @@ export default class Main extends Component {
                         <h2>Buy and Sell anything you want with us</h2>
                     </div>
                     <div className="paragraph">
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+                        <p className="paragraphh">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
                     </div>
                     <div className="searchbar">
                         <input className="input-search" type='text' placeholder='Search is here'></input>

@@ -37,9 +37,9 @@
 
 .product-body-div {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;    
     padding-top: 3%;
-    gap: 40px;
 }
 
 .product-img {
@@ -50,6 +50,7 @@
     display: flex;
     flex-direction: column;
     width: 30%;
+    justify-content: space-between;
     border-radius: 25px;
     background-color: #bfc6fa;
     padding: 2%;
@@ -57,7 +58,7 @@
  .product-price {
     display: flex;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 50px;
     padding-left: 3%;
     
 }
@@ -74,15 +75,84 @@
     padding-bottom: 5%;
     border-bottom: 1px solid grey;
     border-radius: 8px;
-
+    gap: 10px;
 }
 .query {
+    display: flex;
+    justify-content: flex-start;
     color: rgba( 0, 0, 0, 0.6);
 }
-
+.ans {
+    display: flex;
+    justify-content: flex-end;
+    text-align: end
+}
 .ads-number {
     text-align: center;
-    
 }
+.product-name-tel {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: start;
+}
+span {
+    font-size: 30px;
+}
+@media screen and (max-width: 555px) {
+    .product-name-tel {
+        font-size: 14px;
+    }
+    span {
+        font-size: 10px;
+    }
+    .product-price {
+        justify-content: center;
+        font-size: 12px;
+    }
+    .product-body-div {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .product-img {
+       min-width: 350px !important;
+    }
+    .product-info-card {
+        min-width: 300px !important;
+    }
+  } 
+
+@media screen and (max-width: 1500px) {
+    .product-body-div {
+        justify-content: center;
+        gap:  40px;
+    }
+    .product-img {
+        min-width: 550px;
+    }
+    .product-info-card {
+        min-width: 400px;
+    }
+    .product-name-tel {
+        font-size: 40px;
+    }
+    span {
+        font-size: 20px;
+    }
+    .ans {
+        font-size: 16px;
+    }
+    .query {
+        font-size: 16px;
+    }
+    .product-price {
+        font-size: 36px;
+    }
+
+}
+
+
+  
+  
 
 
