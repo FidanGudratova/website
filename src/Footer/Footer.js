@@ -8,7 +8,7 @@ import le from "../Assets/Icons/LinkedIn.svg";
 export default class Footer extends Component {
     render() {
         return (
-            <footer>
+            <footer style={{paddingBottom: 10}}>
                     <div className="details">
                         <div className='subs-div'>
                             <p className="subs-header">Subscribe to us..</p>
@@ -46,7 +46,7 @@ export default class Footer extends Component {
                         </div>
 
                     </div>
-                    <span className="year"> c 2023</span>
+                    <span className="year"> © 2023</span>
                 </footer>
         )
     }

@@ -2,7 +2,6 @@ footer {
     display: flex;
     flex-direction: column;
     padding-top: 3%;
-    margin-top: 50px;
     background-color: #1D2130;
 }
 
@@ -83,6 +82,7 @@ footer {
     font-size: 20px !important;
     font-style: normal;
     font-weight: 400;
+    cursor: pointer;
 }
 .year {
     display: flex;

@@ -22,7 +22,7 @@ export default class Product extends Component {
                 <section>
                     <div className="searchbar">
                         <input className="input-search" type='text' placeholder='Search is here'></input>
-                        <button className="search-button">SEARCH</button>
+                        <button className="search-button"  style={{marginLeft:10}}>SEARCH</button>
                     </div>
                     <div className='product'>
 
@@ -75,43 +75,43 @@ export default class Product extends Component {
                             </div>
 
                         </div>
-                        {/* <div className="product-add-info">
-                            <p> 
-                                Bir il zəmanət, qeydiyyatlı və yeni(bağlı qutuda), sellofan ilk sizin gözünüzün önündə açılsın😉
+                        <div className="product-add-info">
+                            <p className="product-add-info"> 
+                            < br /> < br /> Bir il zəmanət, qeydiyyatlı və yeni(bağlı qutuda), sellofan ilk sizin gözünüzün önündə açılsın😉
                                 Orijinal və global versiya.
                             </p>                            
                             <br />
                             <p>
-                                İlk 14 gündə məhsulda, istehsalçı defekti yaranarsa, əgər proqram təminatıdırsa yazılıb sizə geri, təhvil verilir, yox əgər təmirlik bir problem olarsa, məhsul yenisi ilə əvəz olunur.
+                                İlk 14 gündə məhsulda, istehsalçı defekti yaranarsa, əgər proqram təminatıdırsa yazılıb geri təhvil verilir, təmirlik bir problem olarsa, məhsul yenisi ilə əvəz olunur.
                             </p>
                             < br />
                             <p>
-                                ⚙️ Android : Android 11, One UI 3.1
-                                🔋 Batareya : 4500mAh , Fast charging 25W , Type - C .
-                                📱 Ekran tipi: Super AMOLED, 90Hz, 800 nits
-                                Ekran ölçüsü: 6.5 inches, 101.0 cm2 (~84.1% screen-to-body ratio)
-                                Ekran imkanları: 1080 x 2400 pixels, 20:9 ratio (~407 ppi density)
-                                Corning Gorilla Glass 5
-                                📷 Ön kamera : 32 MP, f/2.2, 26mm (wide), 1/2.8", 0.8µm
-                                Features : HDR
-                                🎥 Video: 4K@30fps, 1080p@30fps
-                                📸 Arxa kamera :.
-                                64 MP, f/1.8, 26mm (wide), 1/1.7X", 0.8µm, PDAF, OIS
-                                12 MP, f/2.2, 123˚ (ultrawide), 1.12µm
-                                5 MP, f/2.4, (macro)
+                                ⚙️ Android : Android 11, One UI 3.1 < br /> 
+                                🔋 Batareya : 4500mAh , Fast charging 25W , Type - C . < br />
+                                📱 Ekran tipi: Super AMOLED, 90Hz, 800 nits < br />
+                                Ekran ölçüsü: 6.5 inches, 101.0 cm2 (~84.1% screen-to-body ratio) < br />
+                                Ekran imkanları: 1080 x 2400 pixels, 20:9 ratio (~407 ppi density) < br /> 
+                                Corning Gorilla Glass 5 < br /> < br />
+                                📷 Ön kamera : 32 MP, f/2.2, 26mm (wide), 1/2.8", 0.8µm < br />
+                                Features : HDR < br />
+                                🎥 Video: 4K@30fps, 1080p@30fps < br />
+                                📸 Arxa kamera :. < br />
+                                64 MP, f/1.8, 26mm (wide), 1/1.7X", 0.8µm, PDAF, OIS < br />
+                                12 MP, f/2.2, 123˚ (ultrawide), 1.12µm < br />
+                                5 MP, f/2.4, (macro) < br />
                                 5 MP, f/2.4, (depth)
-                                Features: LED flash, panorama, HDR
-                                🎥 Video : 4K@30fps, 1080p@30/60fps; gyro-EIS
-                                🔧 Prosessor: Qualcomm SM7125 Snapdragon 720G (8 nm)
-                                CPU: Octa-core (2x2.3 GHz Kryo 465 Gold & 6x1.8 GHz Kryo 465 Silver)
-                                GPU: Adreno 618
-                                📏 Ölçüləri : 159.9 x 75.1 x 8.4 mm (6.30 x 2.96 x 0.33 in)
-                                ⚖ ️Çəkisi : 189 g (6.67 oz)
-                                GPS VAR
-                                📻 FM Radio var.
-                                Bluetooth : 5.0, A2DP, LE
-                                🔓 Barmaq izi Ekranda
-                                Buraxılış tarixi : 2021, March 17
+                                Features: LED flash, panorama, HDR < br />
+                                🎥 Video : 4K@30fps, 1080p@30/60fps; gyro-EIS < br /> < br />
+                                🔧 Prosessor: Qualcomm SM7125 Snapdragon 720G (8 nm)  < br />
+                                CPU: Octa-core (2x2.3 GHz Kryo 465 Gold & 6x1.8 GHz Kryo 465 Silver) < br />
+                                GPU: Adreno 618 < br /> < br />
+                                📏 Ölçüləri : 159.9 x 75.1 x 8.4 mm (6.30 x 2.96 x 0.33 in) < br />
+                                ⚖ ️Çəkisi : 189 g (6.67 oz) < br />
+                                GPS VAR < br />
+                                📻 FM Radio var. < br /> 
+                                Bluetooth : 5.0, A2DP, LE < br />
+                                🔓 Barmaq izi Ekranda < br /> 
+                                Buraxılış tarixi : 2021, March 17 < br />
                             </p>    
                             <br />
                             <p>    
@@ -119,12 +119,12 @@ export default class Product extends Component {
                             </p>
                             <br />
                             <p>
-                                📍Mağazanın ünvanı:28 May, Bank of Baku ilə üzbeüz .
+                                📍Location: 28 May, Bank of Baku ilə üzbeüz .
                                 Əlavə məlumat üçün WhatsAppa yaza .bilərsiniz.
                             </p>
                             
 
-                        </div> */}
+                        </div>
                         
 
                     </div>

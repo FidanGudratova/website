@@ -12,16 +12,16 @@ header {
     justify-content: center;
     align-items: center;
     font-family: Averta;
-    font-size: 28px !important;
+    font-size: 24px !important;
     font-style: normal;
     font-weight: 600;
 }
 .navbar-span:hover {
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: underline !important;
     font-family: Averta;
     background-color: rgb(198, 201, 199);
-    font-size: 30px !important;
+    font-size: 24px !important;
     border-radius: 10px;
     font-weight: 600;
     padding: 1%;

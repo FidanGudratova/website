@@ -98,6 +98,9 @@
 span {
     font-size: 30px;
 }
+.product-add-info {
+    font-size: 22px !important;
+}
 @media screen and (max-width: 555px) {
     .product-name-tel {
         font-size: 14px;
@@ -119,6 +122,9 @@ span {
     }
     .product-info-card {
         min-width: 300px !important;
+    }
+    .product-add-info {
+        font-size: 14px !important;
     }
   } 
 
@@ -150,6 +156,9 @@ span {
     }
     .product-price {
         font-size: 36px;
+    }
+    .product-add-info {
+        font-size: 18px !important;
     }
 
 }

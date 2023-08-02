@@ -24,7 +24,7 @@ export default class Main extends Component {
                     </div>
                     <div className="searchbar">
                         <input className="input-search" type='text' placeholder='Search is here'></input>
-                        <button className="search-button">SEARCH</button>
+                        <button className="search-button" style={{marginLeft:10}}>SEARCH</button>
                     </div>
 
                     <Categories />
